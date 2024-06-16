@@ -3,7 +3,7 @@ const { PrismaClient } = require("@prisma/client");
 const prismaClient = new PrismaClient();
 
 const description =
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec nisl lorem. Praesent pharetra, sapien ut fringilla malesuada, nisi felis ullamcorper ex, eu consectetur elit dolor sed dolor. Praesent orci mi, auctor aliquet semper vitae, volutpat quis augue. Cras porta sapien nec pharetra laoreet. Sed at velit sit amet mauris varius volutpat sit amet id mauris. Maecenas vitae mattis ante. Morbi nulla quam, sagittis at orci eu, scelerisque auctor neque.";
+  "Era pra ter um lorem aqui bonitinho mas eu nao quero, to sem ideias na cabeça e enquanto escrevo aqui pode surgir alguma coisa pra me ajudar a completar essa parada toda. nem comeceu e ja to chorando pensando no motivo de ter parado de estudar programacao. ainda da tempo de mudar meu futuro. ";
 
 const createBurguers = async (
   desertsCategoryId: string,
