@@ -9,7 +9,7 @@ const Search = () => {
         placeholder="Procurar Restaurantes"
         className="rounded-full border-none bg-[#f4f4f5]"
       />
-      <Button size="icon" className="h-19 w-10 bg-red-600">
+      <Button size="icon" className="h-19 w-10 bg-primary">
         <SearchIcon size={20} />
       </Button>
     </div>
