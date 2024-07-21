@@ -1,7 +1,8 @@
 import { Prisma, Product } from "@prisma/client";
 import Image from "next/image";
 import { CalculatePriceNoDiscount, formatCurrency } from "../_helpers/price";
-import { ArrowDownIcon } from "lucide-react";
+import { ArrowDownIcon, HeartIcon, StarIcon } from "lucide-react";
+import { Button } from "./ui/button";
 
 interface ProductItemsProps {
   product: Prisma.ProductGetPayload<{
@@ -27,14 +28,10 @@ const ProductItem = ({ product }: ProductItemsProps) => {
           className="rounded-lg object-cover shadow-md"
         />
 
-        {product.discountPercentage && (
-          <div className="absolute left-2 top-2 flex items-center gap-[2px] rounded-full bg-primary px-2 py-[2px] text-white">
-            <ArrowDownIcon size={12} />
-            <span className="text-xs font-semibold">
-              {product.discountPercentage}%
-            </span>
-          </div>
-        )}
+      
+
+
+
       </div>
 
       {/* nome do produto , preço e nome do restaurante. condicao: se o produto tiver desconto, que ele apareça taxado simples */}
